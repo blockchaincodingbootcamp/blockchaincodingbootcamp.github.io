@@ -1710,7 +1710,11 @@ form label {
 
 .column-margins {
   flex: 50%;
-  align-self: center;
+  /* align-self: center; */
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-right: 3em;
+  padding-bottom: 1em
 }
 
 .gtco-loader {

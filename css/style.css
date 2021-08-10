@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #66D37E;
+  color: black;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #66D37E;
+  color: black;
   outline: none;
   text-decoration: none;
 }
@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #gtco-header h1 strong {
   font-weight: 700;
-  color: #66D37E;
+  color: white;
 }
 @media screen and (max-width: 768px) {
   #gtco-header h1 {

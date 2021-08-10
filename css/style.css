@@ -1654,6 +1654,10 @@ form label {
 .row-mt-15em {
   margin-top: 15em;
 }
+
+.row-mt-5em {
+  margin-top: 5em;
+}
 @media screen and (max-width: 768px) {
   .row-mt-15em {
     margin-top: 7em;
@@ -1675,6 +1679,33 @@ form label {
 
 .row-pb-sm {
   padding-bottom: 2em !important;
+}
+
+.row {
+  display: flex;
+  /* margin-top: 6em;
+  margin-left: 4em;
+  margin-right: 4em;
+  padding-bottom: 2em */
+}
+
+.row-margins {
+  display: flex;
+  margin-top: 6em;
+  margin-left: 4em;
+  margin-right: 4em;
+  padding-bottom: 2em
+}
+
+.column {
+  flex: 50%;
+  /* margin-left: 1em;
+  margin-right: 1em; */
+}
+
+.column-margins {
+  flex: 50%;
+  align-self: center;
 }
 
 .gtco-loader {
